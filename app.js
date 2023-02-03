@@ -10,7 +10,7 @@
 let yourName = document.querySelector("#yourName");
 let theirName = document.querySelector("#theirName");
 let output = document.querySelector("#output");
-let singlePeoples = ['bikah', 'prajjwal', 'shreejan', 'kushal', 'bishal', 'mandal', 'manish']
+let singlePeoples = ['bikah', 'dinesh', 'prajjwal', 'shreejan', 'kushal', 'bishal', 'mandal', 'manish']
 // let gayMeter = 1;
 
 function calculate() {
@@ -26,7 +26,7 @@ function calculate() {
     else {
 
         if (singlePeoples.includes(name1.toLowerCase()) || singlePeoples.includes(name2.toLowerCase())) {
-            output.innerText = "gay ho tyo";
+            output.innerText = name1 + " and " + name2 + " are " + "99.99" + " % in love";
         }
         else {
             let lovePercent = parseInt(Math.random() * 100);
