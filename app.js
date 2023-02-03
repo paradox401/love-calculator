@@ -10,7 +10,7 @@
 let yourName = document.querySelector("#yourName");
 let theirName = document.querySelector("#theirName");
 let output = document.querySelector("#output");
-let singlePeoples = ['bikah', 'dinesh', 'prajjwal', 'shreejan', 'kushal', 'bishal', 'mandal', 'manish']
+let singlePeoples = ['bikah', 'dines', 'prajjwal', 'shreejan', 'kushal', 'bishal', 'mandal', 'manish']
 // let gayMeter = 1;
 
 function calculate() {
