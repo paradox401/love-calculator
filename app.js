@@ -25,7 +25,7 @@ function calculate() {
 
     else {
 
-        if (singlePeoples.includes(name1.toLowerCase()) || singlePeoples.includes(name2.toLowerCase())) {
+        if ((singlePeoples.includes(name1.toLowerCase()) || singlePeoples.includes(name2.toLowerCase()))) {
             output.innerText = name1 + " and " + name2 + " are " + "99.99" + " % in love";
         }
         else {
