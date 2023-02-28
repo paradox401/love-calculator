@@ -26,12 +26,14 @@ function calculate() {
     else {
 
         if ((singlePeoples.includes(name1.toLowerCase()) || singlePeoples.includes(name2.toLowerCase()))) {
-            output.innerText = name1 + " and " + name2 + " are " + "99.99" + " % in love";
+            output.innerText = "the given person is gay";
         }
         else {
             let lovePercent = parseInt(Math.random() * 100);
             output.innerText = name1 + " and " + name2 + " are " + lovePercent + " % in love";
+
         }
+
         yourName.value = "";
         theirName.value = "";
     }
