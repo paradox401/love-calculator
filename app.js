@@ -25,23 +25,23 @@ function calculate() {
     }
 
     else {
-
-        if ((singlePeoples.includes(name1.toLowerCase()) || singlePeoples.includes(name2.toLowerCase()))) {
-            output.innerText = "the given person is gay";
+        if ((anuja.includes(name1.toLowerCase() || anuja.includes(name2.toLowerCase())))) {
+            output.innerText = "this person is";
         }
         else {
 
-            if ((anuja.includes(name1.toLowerCase() || anuja.includes(name2.toLowerCase())))) {
-                output.innerText = "this person is not intrested";
+            if ((singlePeoples.includes(name1.toLowerCase()) || singlePeoples.includes(name2.toLowerCase()))) {
+                output.innerText = "the given person is gay";
             }
+
 
             else {
                 let lovePercent = parseInt(Math.random() * 100);
                 output.innerText = name1 + " and " + name2 + " are " + lovePercent + " % in love";
 
             }
-
-            yourName.value = "";
-            theirName.value = "";
         }
+        yourName.value = "";
+        theirName.value = "";
     }
+}
