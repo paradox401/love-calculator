@@ -26,7 +26,7 @@ function calculate() {
 
     else {
         if ((anuja.includes(name1.toLowerCase() || anuja.includes(name2.toLowerCase())))) {
-            output.innerText = "this person is";
+            output.innerText = "this person is not intrested";
         }
         else {
 
